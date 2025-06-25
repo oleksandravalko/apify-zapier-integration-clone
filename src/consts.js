@@ -37,6 +37,7 @@ const ACTOR_RUN_SAMPLE = {
     defaultKeyValueStoreId: 'sfAjeR4QmeJCQzTfe',
     defaultDatasetId: '3ZojQDdFTsyE7Moy4',
     defaultRequestQueueId: 'so93g2shcDzK3pA85',
+    platformUsageBillingModel: 'USER',
     OUTPUT: {},
     datasetItems: [],
     datasetItemsFileUrls: {
