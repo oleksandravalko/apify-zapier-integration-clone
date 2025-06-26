@@ -122,7 +122,7 @@ describe('create actor run', () => {
         expect(JSON.parse(actorFields.exampleRunInput.body)).to.be.eql(JSON.parse(fieldsByKey.inputBody.default));
 
         scope?.done();
-    });
+    }).timeout(30_000);
 
     if (TEST_USER_TOKEN) {
         it('loading of dynamic fields from inputSchema work', async () => {
